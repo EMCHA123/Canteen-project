@@ -1,0 +1,601 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bordy {
+    height: auto;
+    width: 100%;
+}
+
+aside {
+    /* background: rgb(143, 68, 68); */
+    height: auto;
+    width: 100%;
+}
+
+/* ...Nav... */
+nav {
+    background: rgb(121, 118, 118);
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+
+}
+
+.navbar-left {
+    width: 30%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.navbar-right {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+li {
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(228, 215, 215);
+    font-size: 20px;
+}
+
+a:hover {
+    border: 3px solid yellow;
+}
+
+/* ...header... */
+.user-header {
+    height: 600px;
+    background: url(../IMG.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(239, 239, 223);
+}
+
+.user-tittle {
+    width: 50%;
+    padding: 100px 0px 0px 30px;
+    font-size: 25px;
+}
+
+.user-tittle>p {
+    background: #11101077;
+}
+
+h1 {
+    padding-bottom: 30px;
+}
+
+/* ..main.. */
+#main {
+    height: auto;
+}
+
+main>h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color: rgb(25, 219, 25);
+}
+
+.user-card {
+    height: auto;
+    display: flex;
+    padding: 40px;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.card {
+    background: rgb(181, 176, 110);
+    display: flex;
+    width: 20%;
+    height: auto;
+    padding: 30px;
+    border-radius: 10px;
+    color: rgb(71, 71, 145);
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#user-contain {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ....contain.... */
+#user-contain>h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    color: rgb(25, 219, 25);
+}
+
+.canteen1 {
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+h2 {
+    padding-bottom: 20px;
+}
+
+.canteen-left {
+    width: 30%;
+}
+
+.canteen-right {
+    width: 70%;
+}
+
+.canteen-right>h2 {
+    display: flex;
+    justify-content: start;
+    color: rgb(19, 19, 110);
+}
+
+.canteen2 {
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+.main-left {
+    width: 30%;
+}
+
+.user-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 17px;
+}
+
+.box {
+    width: 50%;
+}
+
+.main-right {
+    width: 70%;
+}
+
+table {
+    border: 1px solid black;
+    width: 100%;
+}
+
+table,
+thead,
+th,
+td {
+    padding: 11px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(1)>th {
+    background: rgb(173, 93, 173);
+    color: white;
+}
+
+#sport-section {
+    width: 100%;
+    height: auto;
+}
+
+#sport-section>h1,
+#arobic-section>h1,
+#contectus-section>h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    color: rgb(177, 90, 90);
+}
+
+.list-sport {
+    height: auto;
+    background: rgb(238, 237, 237);
+    width: 98%;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.list {
+    width: 31%;
+    padding: 10px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: rgb(19, 19, 110);
+}
+
+#arobic-section {
+    width: 100%;
+    height: auto;
+}
+
+.item-arobic {
+    height: auto;
+    width: 98%;
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    width: 31%;
+    padding: 10px;
+}
+
+#arobic-section>p {
+    padding: 20px;
+}
+
+.contact-us {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../pictures/photo_2023-01-17_08-31-29\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+form {
+    height: auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 10px 10px 10px;
+    margin: 40px 0px 40px 0px;
+    background: rgba(25, 23, 23, 0.742);
+}
+
+input,
+select {
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.form-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 10%;
+}
+
+.text {
+    width: 40%;
+    padding-top: 15px;
+}
+
+.text>h2 {
+    color: white;
+}
+
+.form-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px 30px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.user-name,
+.user-passwords,
+.user-more-infos,
+.user-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-firstname,
+.user-lastname,
+.user-password,
+.user-confirm-password,
+.user-financial,
+.user-income,
+.user-profile,
+.user-age {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-email {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: rgb(232, 243, 239);
+    font-weight: 30px;
+}
+
+.user-gender {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.user-genders>span {
+    color: white;
+}
+
+.user-date {
+    width: 100%;
+}
+
+.user-date>input {
+    width: 98%;
+
+}
+
+.user-submit {
+    display: flex;
+    justify-content: center;
+}
+
+.user-submit>input {
+    width: 30%;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    background: rgb(88, 152, 146);
+}
+
+.user-name,
+.user-email,
+.user-password,
+.user-confirm-password,
+.user-gender,
+.user-date,
+.user-submit {
+    padding-bottom: 30px;
+}
+
+.user-map {
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+.about-map1 {
+    width: 40%;
+}
+
+.about-map2 {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.map-section>h1,
+.footer>h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    color: rgb(30, 62, 192);
+}
+
+.user-footer {
+    width: 98%;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.value1>h3,
+.value2>h3,
+.value3>h3,
+.value4>h3 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.value {
+    width: 100%;
+}
+
+/* ....Footer... */
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-footer{
+    background: #e8d4d4;
+    width:99%;
+}
+.footer1>p {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+
+}
+
+.footer2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ 
+}
+
+.p1,
+.p2,
+.p3,
+.p4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.footer2>.p2 {
+    padding-right: 25px;
+}
+
+ion-icon,
+h3 {
+    color: rgb(23, 23, 72);
+}
+
+@media(max-width:1024px) {
+    .card {
+        padding: 0px;
+
+    }
+
+    .canteen-right {
+        width: 70%;
+        padding: 10px 20px 0px 40px;
+    }
+
+    .canteen-left>img {
+        width: 110%;
+    }
+
+    .main-left {
+        width: 40%;
+    }
+
+    .main-right {
+        width: 60%;
+    }
+
+    table,
+    thead,
+    th,
+    td {
+        padding: 4px;
+    }
+
+    .ima1>img {
+        height: 40vh;
+        width: 100%;
+        background: #000;
+    }
+
+    .item-arobic {
+        display: flex;
+        gap: 10%;
+    }
+
+    .item>img {
+        width: 120%;
+    }
+}
+
+@media(max-width:768px) {
+    .main-left {
+        flex-direction: column;
+    }
+
+    .canteen2 {
+        flex-direction: column;
+    }
+
+    .main-right {
+        width: 100%;
+    }
+
+    .box>img {
+        width: 90%;
+        margin-left: 160%;
+    }
+
+    .user-card {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .about-map1>img {
+        height: 89vh;
+        width: 100%;
+    }
+
+    form {
+        width: 70%;
+    }
+
+    .user-tittle>p {
+        width: 180%;
+        background: #00000065;
+    }
+}
+
+@media(max-width:320px) {
+    nav {
+        width: 100%;
+    }
+
+    aside {
+        width: 180%;
+    }
+
+    .navbar-left {
+        width: 20%;
+    }
+
+    .navbar-right {
+        width: 80%;
+    }
+
+    .map-section {
+        display: none;
+    }
+
+    .card {
+        width: 80%;
+        margin-right: 190%;
+    }
+}
